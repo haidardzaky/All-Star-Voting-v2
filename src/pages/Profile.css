@@ -1,0 +1,39 @@
+.card{
+  background-color: lightgray;
+  color:black;
+}
+.image-player{
+  text-align: center;
+  margin-top: 15px;
+}
+
+hr{
+  margin-right:30px;
+  margin-left:30px;
+  border-color: black;
+}
+
+
+button{
+  background-color: transparent;
+  border-color:yellow;
+  border-radius: 10px;
+  cursor:pointer;
+  height: 30px;
+}
+
+button:hover{
+  background-color: yellow;
+}
+
+.img-player{
+  width: 150px;
+}
+
+.player-data{
+  margin-left: 40px;
+}
+
+.vote{
+  text-align: center;
+}
