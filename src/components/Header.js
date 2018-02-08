@@ -1,6 +1,6 @@
 import React from "react"
 import logo from './NBA_AllStar_LA.png'
-import './Component.css'
+
 
 const Header = () => (
   <div className="App-header">
