@@ -18,6 +18,11 @@ export default class Profile extends Component {
     this.setState((prevState) => ({
       count: prevState.count + 1
     }))
+
+  decreaseVote() {
+    this.setState((prevState) => ({
+      count: prevState.count - 1
+    }))
   }
 
   render() {
@@ -43,7 +48,8 @@ export default class Profile extends Component {
       </div>
       <hr className="hr-profile"/>
       <div className="vote">
-        <button onClick={this.increaseVote}>VOTE</button>
+        <button onClick={this.increaseVote}>INCREASE</button>
+        <button onClick={this.decreaseVote}>DECREASE</button>
         <VoteCount count={this.state.count}/>
       </div>
     </div>)
